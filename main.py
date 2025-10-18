@@ -114,7 +114,7 @@ async def broadcast(update: Update, context: ContextTypes.DEFAULT_TYPE):
         except Exception as e:
             logger.warning(f"Failed to send to group {group['_id']}: {e}")
 
-    await update.message.reply_text("✅ 𝘽𝙧𝙤𝙖𝙙𝙘𝙖𝙨𝙩 𝙨𝙚𝙣𝙩 𝙩𝙤 𝙖𝙡𝙡 𝙪𝙨𝙚𝙧𝙨 𝙖𝙣𝙙 𝙜𝙧𝙤𝙪𝙥𝙨.")
+    await update.message.reply_text("✅ 𝘽𝙧𝙤𝙖𝙙𝙘𝙖𝙨𝙩 𝙨𝙚𝙣𝙩 𝙩𝙤 𝙖𝙡𝙡 𝙪𝙨𝙚𝙧𝙨 𝙖𝙣𝙙 𝙜𝙧𝙤𝙪𝙥𝙨..")
 
 
 def main():
@@ -125,7 +125,7 @@ def main():
     application.add_handler(MessageHandler(filters.UpdateType.EDITED_MESSAGE, edited_message_handler))
     application.add_handler(CommandHandler("broadcast", broadcast))
 
-    logger.info("Bot started...")
+    logger.info("hypers Bot started...")
     application.run_polling()
 
 
