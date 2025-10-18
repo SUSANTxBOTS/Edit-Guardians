@@ -57,7 +57,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "🔹 𝐓ʜɪs 𝐁ᴏᴛ 𝐀ᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ 𝐃ᴇʟᴇᴛᴇs 𝐄ᴅɪᴛᴇᴅ 𝐌ᴇssᴀɢᴇs 𝐈ɴ 𝐆ʀᴏᴜᴘs.\n"
         "🔹 𝐇ᴇʟᴘs 𝐌ᴀɪɴᴛᴀɪɴ 𝐓ʀᴀɴᴅᴘᴀʀᴇɴᴄʏ 𝐈ɴ 𝐂ᴏɴᴠᴇʀsᴀᴛɪᴏɴs\n\n"
         "✅ 𝐀ᴅᴅ 𝐌ᴇ 𝐈ɴ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ & 𝐆ɪᴠᴇ 𝐃ᴇʟᴇᴛᴇ 𝐌ᴇssᴀɢᴇs 𝐏ᴇʀᴍɪssɪᴏɴ./n/n"
-        "👨‍💻 𝐃ᴇᴠᴇʟᴏᴘᴇʀ: <a href='https://t.me/xakario'>𝘼𝙆𝘼𝙄𝙍𝙊 </></a>
+        "👨‍💻 𝐃ᴇᴠᴇʟᴏᴘᴇʀ: <a href='https://t.me/xakario'>𝘼𝙆𝘼𝙄𝙍𝙊</a>
     )
 
     await update.message.reply_html(text, reply_markup=InlineKeyboardMarkup(keyboard))
