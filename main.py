@@ -15,7 +15,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("7905598523:AAF2pNKuTMsozrNu0aAEYCUPOzwnxLl9HZA")
+BOT_TOKEN = "7905598523:AAF2pNKuTMsozrNu0aAEYCUPOzwnxLl9HZA"
 ADMIN_ID = 8156708830  # default fallback
 MONGO_URL = os.getenv("mongodb+srv://HYPER-KA-BETA-KENZO:Fc1cWDUgyUlHQ9bU@cluster0.acqtsqp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 CHANNEL_URL = os.getenv("https://t.me/ThronexCodex")
