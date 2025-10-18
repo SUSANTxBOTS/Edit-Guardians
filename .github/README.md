@@ -13,7 +13,7 @@ A Telegram bot that automatically deletes edited messages in groups to maintain 
 
 ### Deploy on Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/NoxxOP/Edit-Guardians)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/SUSANTxBOTS/Edit-Guardians)
 
 ### Deploy on VPS
 
