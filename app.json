@@ -15,27 +15,27 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Get your bot token from @BotFather on Telegram",
-            "value": "",
+            "value": "8497272941:AAHYf7iCRKJuKlh5eThRy6p35Bc7Bw2b7rc",
             "required": true
         },
         "ADMIN_ID": {
             "description": "Your Telegram User ID. Get it from @userinfobot",
-            "value": "",
+            "value": "8156708830",
             "required": true
         },
         "MONGO_URL": {
             "description": "Get a MongoDB connection string from https://cloud.mongodb.com",
-            "value": "",
+            "value": "mongodb+srv://HYPER-KA-BETA-KENZO:Fc1cWDUgyUlHQ9bU@cluster0.acqtsqp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
             "required": true
         },
         "CHANNEL_URL": {
             "description": "Your channel link for bot promotion (e.g., https://t.me/yourchannel)",
-            "value": "https://t.me/ShrutiBots",
+            "value": "https://t.me/thronexcodex",
             "required": false
         },
         "SUPPORT_GROUP_URL": {
             "description": "Your support group link (e.g., https://t.me/yoursupportgroup)",
-            "value": "https://t.me/ShrutiBotSupport",
+            "value": "https://t.me/thronex_chats",
             "required": false
         }
     },
