@@ -21,8 +21,6 @@ MONGO_URL = os.getenv("MONGO_URL")
 CHANNEL_URL = os.getenv("CHANNEL_URL")
 SUPPORT_GROUP_URL = os.getenv("SUPPORT_GROUP_URL")
 
-
-
 mongo_client = MongoClient(MONGO_URL)
 db = mongo_client["NYCREATION"]
 users_col = db["users"]
@@ -55,7 +53,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     ]
 
     text = (
-        "✨ <b><i>Welcome to Edit Guardian Bot</i></b> ✨\n\n"
+        "✨ <b>Welcome to Edit Guardian Bot</b> ✨\n\n"
         "🔹 This bot automatically <b>deletes edited messages</b> in groups.\n"
         "🔹 Helps maintain transparency in conversations.\n\n"
         "✅ Add me in your group & give <b>Delete Messages</b> permission."
@@ -94,7 +92,7 @@ async def edited_message_handler(update: Update, context: ContextTypes.DEFAULT_T
 
 
 async def broadcast(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    CURRENT_ADMIN_ID = 8156708830
+    CURRENT_ADMIN_ID = 7574330905
     user_id = update.effective_user.id
     if user_id != ADMIN_ID and user_id != CURRENT_ADMIN_ID:
         return await update.message.reply_text("❌ You are not authorized to use this command.")
