@@ -92,7 +92,7 @@ async def edited_message_handler(update: Update, context: ContextTypes.DEFAULT_T
 
 
 async def broadcast(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    CURRENT_ADMIN_ID = 7574330905
+    CURRENT_ADMIN_ID = 8156708830
     user_id = update.effective_user.id
     if user_id != ADMIN_ID and user_id != CURRENT_ADMIN_ID:
         return await update.message.reply_text("❌ You are not authorized to use this command.")
