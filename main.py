@@ -15,11 +15,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_ID = int(os.getenv("ADMIN_ID"))
-MONGO_URL = os.getenv("MONGO_URL")
-CHANNEL_URL = os.getenv("CHANNEL_URL")
-SUPPORT_GROUP_URL = os.getenv("SUPPORT_GROUP_URL")
+BOT_TOKEN = os.getenv("7905598523:AAF2pNKuTMsozrNu0aAEYCUPOzwnxLl9HZA")
+ADMIN_ID = int(os.getenv("8156708830"))
+MONGO_URL = os.getenv("mongodb+srv://HYPER-KA-BETA-KENZO:Fc1cWDUgyUlHQ9bU@cluster0.acqtsqp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+CHANNEL_URL = os.getenv("https://t.me/ThronexCodex")
+SUPPORT_GROUP_URL = os.getenv("https://t.me/Thronex_CHATS")
 
 mongo_client = MongoClient(MONGO_URL)
 db = mongo_client["NYCREATION"]
@@ -53,7 +53,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     ]
 
     text = (
-        "✨ <b>Welcome to Edit Guardian Bot</b> ✨\n\n"
+        "✨ <b><i>Welcome to Edit Guardian Bot</i></b> ✨\n\n"
         "🔹 This bot automatically <b>deletes edited messages</b> in groups.\n"
         "🔹 Helps maintain transparency in conversations.\n\n"
         "✅ Add me in your group & give <b>Delete Messages</b> permission."
