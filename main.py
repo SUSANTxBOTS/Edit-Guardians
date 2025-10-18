@@ -56,8 +56,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "✨ <b>𝐖ᴇʟᴄᴏᴍᴇ 𝐓ᴏ 𝐄ᴅɪᴛ 𝐆ᴜᴀʀᴅɪᴀɴ 𝐁ᴏᴛ </b> ✨\n\n"
         "🔹 𝐓ʜɪs 𝐁ᴏᴛ 𝐀ᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ 𝐃ᴇʟᴇᴛᴇs 𝐄ᴅɪᴛᴇᴅ 𝐌ᴇssᴀɢᴇs 𝐈ɴ 𝐆ʀᴏᴜᴘs.\n"
         "🔹 𝐇ᴇʟᴘs 𝐌ᴀɪɴᴛᴀɪɴ 𝐓ʀᴀɴᴅᴘᴀʀᴇɴᴄʏ 𝐈ɴ 𝐂ᴏɴᴠᴇʀsᴀᴛɪᴏɴs\n\n"
-        "✅ 𝐀ᴅᴅ 𝐌ᴇ 𝐈ɴ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ & 𝐆ɪᴠᴇ 𝐃ᴇʟᴇᴛᴇ 𝐌ᴇssᴀɢᴇs 𝐏ᴇʀᴍɪssɪᴏɴ./n/n"
-        "👨‍💻 𝐃ᴇᴠᴇʟᴏᴘᴇʀ: <a href='https://t.me/xakario'>𝘼𝙆𝘼𝙄𝙍𝙊</a>"
+        "✅ 𝐀ᴅᴅ 𝐌ᴇ 𝐈ɴ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ & 𝐆ɪᴠᴇ 𝐃ᴇʟᴇᴛᴇ 𝐌ᴇssᴀɢᴇs 𝐏ᴇʀᴍɪssɪᴏɴ.\n\n"
+        "👨‍💻 𝐃ᴇᴠᴇʟᴏᴘᴇʀ: <a href='https://t.me/xakario'>𝘼𝙆𝘼𝙄𝙍𝙊 <//></a>"
     )
 
     await update.message.reply_html(text, reply_markup=InlineKeyboardMarkup(keyboard))
@@ -96,7 +96,7 @@ async def broadcast(update: Update, context: ContextTypes.DEFAULT_TYPE):
     CURRENT_ADMIN_ID = 7574330905
     user_id = update.effective_user.id
     if user_id != ADMIN_ID and user_id != CURRENT_ADMIN_ID:
-        return await update.message.reply_text("❌ You are not authorized to use this command.")
+        return await update.message.reply_text("❌ 𝙔𝙤𝙪 𝙖𝙧𝙚 𝙣𝙤𝙩 𝙖𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙚𝙙 𝙩𝙤 𝙪𝙨𝙚 𝙩𝙝𝙞𝙨 𝙘𝙤𝙢𝙢𝙖𝙣𝙙.")
 
     if not context.args:
         return await update.message.reply_text("Usage: /broadcast <message>")
