@@ -47,9 +47,9 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         groups_col.update_one({"_id": chat.id}, {"$set": {"title": chat.title}}, upsert=True)
 
     keyboard = [
-        [InlineKeyboardButton("📢𝑺𝒖𝒑𝒑𝒐𝒓𝒕", url=CHANNEL_URL)],
-        [InlineKeyboardButton("💬 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝑮𝒓𝒐𝒖𝒑", url=SUPPORT_GROUP_URL)],
-        [InlineKeyboardButton("ℹ️ 𝑯𝒆𝒍𝒑", callback_data="help")]
+        [InlineKeyboardButton("📢 𝖴ᴘᴅᴀᴛᴇ 𝖢ʜᴀɴɴᴇʟ", url=CHANNEL_URL)],
+        [InlineKeyboardButton("💬 𝖲ᴜᴘᴘᴏʀᴛ 𝖢ʜᴀɴɴᴇʟ", url=SUPPORT_GROUP_URL)],
+        [InlineKeyboardButton("𝖧ᴇʟᴘ", callback_data="help")]
     ]
 
     text = (
