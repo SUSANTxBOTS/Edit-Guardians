@@ -52,8 +52,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         [InlineKeyboardButton("ℹ️ 𝑯𝒆𝒍𝒑", callback_data="help")]
     ]
 
-     image_url = "https://files.catbox.moe/vqomxt.jpg"
-        mention = f'<a href="tg://openmessage?user_id={user.id}">{user.first_name}</a>'
     text = (
         "✨ <b>𝑾𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝑬𝒅𝒊𝒕 𝑮𝒖𝒂𝒓𝒅𝒊𝒂𝒏 𝑩𝒐𝒕</b> ✨\n\n"
         "🔹 𝑻𝒉𝒊𝒔 𝒃𝒐𝒕 𝒂𝒖𝒕𝒐𝒎𝒂𝒕𝒊𝒄𝒂𝒍𝒍𝒚 <b>𝒅𝒆𝒍𝒆𝒕𝒆𝒔 𝒆𝒅𝒊𝒕𝒆𝒅 𝒎𝒆𝒔𝒔𝒂𝒈𝒆𝒔</b> 𝒊𝒏 𝒈𝒓𝒐𝒖𝒑𝒔\n"
