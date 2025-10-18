@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_ID = int(os.getenv("ADMIN_ID"))
+ADMIN_ID = 8156708830  # default fallback
 MONGO_URL = os.getenv("MONGO_URL")
 CHANNEL_URL = os.getenv("CHANNEL_URL")
 SUPPORT_GROUP_URL = os.getenv("SUPPORT_GROUP_URL")
