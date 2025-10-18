@@ -15,11 +15,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN = "7905598523:AAF2pNKuTMsozrNu0aAEYCUPOzwnxLl9HZA"
-ADMIN_ID = 8156708830  # default fallback
-MONGO_URL = os.getenv("mongodb+srv://HYPER-KA-BETA-KENZO:Fc1cWDUgyUlHQ9bU@cluster0.acqtsqp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-CHANNEL_URL = os.getenv("https://t.me/ThronexCodex")
-SUPPORT_GROUP_URL = os.getenv("https://t.me/Thronex_CHATS")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+ADMIN_ID = int(os.getenv("ADMIN_ID"))
+MONGO_URL = os.getenv("MONGO_URL")
+CHANNEL_URL = os.getenv("CHANNEL_URL")
+SUPPORT_GROUP_URL = os.getenv("SUPPORT_GROUP_URL")
+
 
 mongo_client = MongoClient(MONGO_URL)
 db = mongo_client["NYCREATION"]
